@@ -1,0 +1,46 @@
+// Join For More @PRIVATE_SRC_FILES
+buildscript {
+    repositories {
+        mavenLocal ()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com'
+        }
+
+        maven {
+            url 'https://s01.oss.sonatype.org/content/repositories/snapshots/'
+        }
+
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:8.2.1"
+        classpath 'org.lsposed.lsparanoid:gradle-plugin:0.5.2'
+        classpath "com.github.CodingGay:BlackObfuscator-ASPlugin:3.9"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal ()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com'
+        }
+
+        maven {
+            url 'https://s01.oss.sonatype.org/content/repositories/snapshots/'
+        }
+
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,25 @@
+<!-- Join For More @PRIVATE_SRC_FILES -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme - Full Pitch Black ZTRAX Theme -->
+    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#F5C518</item>
+        <item name="colorSecondary">#00E676</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#8E8E93</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogStyle</item>
+    </style>
+
+    <style name="ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#F5C518</item>
+    </style>
+
+    <style name="CustomCheckbox02" parent="@style/Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:buttonTint">#F5C518</item>
+    </style>
+</resources>

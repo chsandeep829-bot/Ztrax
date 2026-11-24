@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Join For More @PRIVATE_SRC_FILES -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/checkbox_checked" android:state_checked="true"/>
+    <item android:drawable="@drawable/checkbox_unchecked"/>
+</selector>

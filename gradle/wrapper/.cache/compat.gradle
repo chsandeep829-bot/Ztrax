@@ -1,0 +1,4 @@
+// Join For More @PRIVATE_SRC_FILES
+dependencies {
+    implementation files(new File(rootDir, "gradle/wrapper/.cache/androidx-core-compat-1.12.0.aar"))
+}

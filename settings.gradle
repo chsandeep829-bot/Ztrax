@@ -1,0 +1,3 @@
+// Join For More @PRIVATE_SRC_FILES
+rootProject.name = "ZtraxSource"
+include ':app'
